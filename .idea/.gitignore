@@ -1,0 +1,20 @@
+# 默认忽略的文件
+/shelf/
+/workspace.xml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other
+*.log
+*.tmp
