@@ -34,6 +34,8 @@ def parse_html_file(url):
     # get请求并解析文件
     logger.info(f"向{url}发起请求")
     try:
+
+
         responses = requests.get(url, headers=headers)
         responses.raise_for_status()  # 如果响应状态码不是2xx，将引发HTTPError异常
     except requests.exceptions.HTTPError as http_err:
